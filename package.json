@@ -1,0 +1,12 @@
+{
+  "name": "aashish-enterprises-site-root",
+  "private": true,
+  "workspaces": [
+    "aashish-enterprises-site"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=aashish-enterprises-site --",
+    "build": "npm run build --workspace=aashish-enterprises-site --",
+    "preview": "npm run preview --workspace=aashish-enterprises-site --"
+  }
+}
